@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+#navbar {
+
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar button{
+    width: 5vw;
+    height: 6vh;
+border: none;
+background-color: azure;
+
+
+}
+#navbar img {
+
+    width: 5vw;
+    height: auto;
+    margin-right: 87vw;
+
+}
+
+#center{
+    margin-top: 15vh;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+#pic{
+   
+    margin-left: 10vw;
+    height: 70vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#pic img{
+    height: 70vh;
+    width: auto;
+
+
+
+}
+
+#pic p{
+
+    margin-left: 28vw;
+}
+
+.button{
+    margin-left: 16vw;
+    margin-top: 62vh;
+    width: 5vw;
+    height: 6vh;
+border: none;
+background-color: azure;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #pic{
+        display: flex;
+        flex-direction: column;
+    margin-left: 1.5vw;
+    }
+    #pic p{
+        margin-top: 3vh;
+        margin-left: 0vw;
+    }
+    .button{
+        margin-left: 58vw;
+        margin-top: 3vh;
+    }
+    
+    #navbar img {
+        margin-top: 1.5vh;
+        width: 15vw;
+        height: auto;
+        margin-right: 60vw;
+}
+#navbar button{
+    width: 15vw;
+}
+.button {
+    
+        width: 15vw;
+}
+
+}
